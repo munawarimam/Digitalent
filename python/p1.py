@@ -7,7 +7,6 @@ def letter_catalog(items, letter='A'):
             continue
     return a
     
-
 print(letter_catalog(['Apple', 'Avocado', 'Banana', 'Blackberries', 'Blueberries', 'Cherries'], letter='A'))
 
 
@@ -18,7 +17,6 @@ def counter_item(items):
         counter[i] = counter.get(i, 0)+1
     return counter
     
-
 print(counter_item(['Apple','Apple','Apple','Blueberries','Blueberries','Blueberries']))
 
 
@@ -28,7 +26,6 @@ prices = [6,5,3,10,12,7,14,15,8,7,9]
 chart = ['Blueberries','Blueberries','Grapes','Apple','Apple','Apple','Blueberries','Guava','Jackfruit','Blueberries','Jackfruit']
 
 fruit_price = dict(zip(fruits, prices))
-
 
 def counter_item(items):
     counter = {}
